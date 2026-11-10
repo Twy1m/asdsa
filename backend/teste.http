@@ -1,0 +1,20 @@
+###CADASTRAR FUNCIONARIO 
+
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "nome": "jao",
+    "email": "jao@email",
+    "senha": "jaoSenha"
+}
+
+###LOGIN JAO
+# @name valtoken
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "jao@email",
+    "senha": "jaoSenha"
+}
